@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: white;
+    width: 50px;
+    height: 100%;
+    z-index: 1000;
+}
+
+.menu-toggle {
+    background: #555;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-content {
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.menu-content a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.menu:hover .menu-content {
+    display: flex;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-container img {
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-prev, .carousel-next {
+    background: #333;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.review-carousel .review {
+    text-align: center;
+}
+
+.review-carousel img {
+    border-radius: 50%;
+}
+
+.buy-now {
+    background: #0f7;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.tutorial-steps p {
+    display: flex;
+    align-items: center;
+}
+
+.tutorial-steps img {
+    margin-right: 10px;
+}
